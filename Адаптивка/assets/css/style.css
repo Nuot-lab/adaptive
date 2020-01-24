@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, .4fr));
+  grid-auto-rows: minmax(260px, auto);
+  grid-gap: 10px;
+  padding: 30px 150px;
+  box-sizing: border-box;
+  grid-auto-rows:200px;
+    
+}
+.gallery > div {
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+ .img {
+  max-width:100%;
+  height:auto;
+  object-fit: cover;
+}
